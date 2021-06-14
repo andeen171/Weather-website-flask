@@ -6,8 +6,8 @@ import sys
 import requests
 
 app = Flask(__name__)
-app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
-api_key = '6b84aa56565868507b43a93923c249ea'
+app.secret_key = ''
+api_key = ''
 early = time(5, 0, 0)
 morning = time(6, 0, 0)
 nightfall = time(17, 0, 0)
